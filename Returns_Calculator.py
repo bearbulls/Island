@@ -1,9 +1,5 @@
 import pandas_datareader as web
-import pandas as pd
 import datetime as dt
-
-data = pd.read_csv("Nifty_500.csv")
-df = data['Symbol'].tolist()
 
 st = dt.datetime.now() - dt.timedelta(days=1825)
 et = dt.datetime.now()
